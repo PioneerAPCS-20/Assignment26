@@ -5,6 +5,27 @@ public class ArrExamples
 {
     public static void main(String[] args)
     {
+        double[] scores = new double[4];
+        scores[0] = 75.5;
+        scores[1] = 83.8;
+        scores[2] = 99.7;
+        scores[3] = 88.1;
+        
+        // Sum of values
+        double sum = 0;
+        for(int i = 0; i < scores.length; i++)
+        {
+            sum += scores[i];
+        }
+
+        System.out.println("Sum = " + sum);
+        
+        double mean = sum / scores.length;
+        System.out.println("Mean = " + mean);
+
+
+        // Quirks
+
         copy();
         actualCopy();
 
