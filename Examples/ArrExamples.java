@@ -32,7 +32,7 @@ public class ArrExamples
         int[] arr1 = {1, 2, 3};
         int[] arr2 = {-3, -2, -1};
         arr1 = arr2.clone();
-        // arr1 = Arrays.copyOf(arr2, arr2.length);  // alternate to clone()
+        // arr1 = Arrays.copyOf(arr2, arr2.length);  // alternative to clone()
         arr2[0] = 5;
         System.out.println(arr1[0] + ", " + arr2[0]);
 
